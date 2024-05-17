@@ -1,5 +1,7 @@
+import ReactFlow from "reactflow";
+
 function App() {
-  return <h1>React Flow Tutorial</h1>;
+  return <ReactFlow />;
 }
 
 export default App;
