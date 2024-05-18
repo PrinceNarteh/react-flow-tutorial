@@ -1,4 +1,4 @@
-import { NodeProps } from "reactflow";
+import { Handle, NodeProps, Position } from "reactflow";
 
 export default function PaymentInit({
   data: { amount },
@@ -7,6 +7,7 @@ export default function PaymentInit({
     <div className="bg-white border border-[#aa1fff]">
       <div className="p-2 bg-[#410566] text-white">Payment Initialized</div>
       <p className="text-2xl p-1">{amount}</p>
+      <Handle type="source" position={Position.Right} />
     </div>
   );
 }
