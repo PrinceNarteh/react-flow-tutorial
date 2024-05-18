@@ -13,8 +13,8 @@ import ReactFlow, {
 
 // React Flow CSS Styles
 import "reactflow/dist/style.css";
-import { initialEdges, initialNodes } from "./Workflow/Workflow.constants";
-import PaymentInit from "./Workflow/PaymentInit";
+import { initialEdges, initialNodes } from "./flow/Workflow.constants";
+import PaymentInit from "./flow/PaymentInit";
 
 const nodeTypes: NodeTypes = {
   paymentInit: PaymentInit,
